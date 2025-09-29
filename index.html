@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шиномонтаж PAPAXA в Твери - Профессиональный шиномонтаж, балансировка, ремонт шин</title>
+    <meta name="description" content="Шиномонтаж PAPAXA в Твери на Революционной 1Б. Профессиональная замена шин, 3D балансировка, ремонт покрышек, сезонное хранение. Работаем ежедневно 9:00-19:00. ☎ +7-991-113-00-69">
+    <meta name="keywords" content="шиномонтаж Тверь, замена шин Тверь, балансировка колес Тверь, ремонт покрышек, PAPAXA, Революционная 1Б, шиномонтажка">
+    <meta name="geo.region" content="RU-TVE">
+    <meta name="geo.placename" content="Тверь">
+    <meta name="geo.position" content="56.8587;35.9176">
+    <meta name="ICBM" content="56.8587, 35.9176">
+    <link rel="canonical" href="https://papaxa-tver.pages.dev">
+	<link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            color: white;
+            padding: 0.5rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .main-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-nav a:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.main-nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.main-nav a:hover::before {
+    left: 100%;
+}
+
+.contact-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.phone {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.phone:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+        
+        .phone:hover {
+            text-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+        
+        /* Hero Section */
+        .hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(255,107,53,0.7)), 
+                url('images/hero-bg.webp');
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 70px;
+}
+        
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            animation: slideInUp 1s ease-out;
+        }
+        
+        .hero-content p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+            animation: slideInUp 1s ease-out 0.3s both;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255,107,53,0.4);
+            animation: slideInUp 1s ease-out 0.6s both;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255,107,53,0.6);
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+            display: block;
+            margin: 20px auto;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-top: 5px solid #ff6b35;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 2rem;
+            color: white;
+        }
+        
+        .service-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        .about-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #333;
+        }
+        
+        .about-text p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        
+        .about-features {
+            list-style: none;
+            margin-top: 30px;
+        }
+        
+        .about-features li {
+            padding: 10px 0;
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .about-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #ff6b35;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        /* Pricing Section */
+        .pricing {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .pricing-tables {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .pricing-table {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .pricing-table:hover {
+            transform: translateY(-5px);
+        }
+        
+        .pricing-header {
+            background: linear-gradient(45deg, #333, #555);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .pricing-header h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .pricing-body {
+            padding: 20px;
+        }
+        
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .price-row:last-child {
+            border-bottom: none;
+        }
+        
+        .service-name {
+            font-weight: 600;
+        }
+        
+        .price-range {
+            color: #ff6b35;
+            font-weight: bold;
+        }
+        
+        /* Gallery Section */
+        .gallery {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 50px;
+        }
+        
+        .gallery-item {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #333 0%, #555 100%);
+            color: white;
+        }
+        
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+        
+        .contact-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #ff6b35;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            transition: background 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: #ff6b35;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .contact-form {
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 15px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #ff6b35;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.9);
+            color: #333;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255,107,53,0.4);
+        }
+        
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        /* Animations */
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .main-nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main-nav a {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .about-content,
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .pricing-tables {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+        
+        /* Schema.org structured data styles */
+        .schema-hidden { display: none; }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Шиномонтаж PAPAXA",
+      "image": "https://papaxa-tver.pages.dev/logo.png",
+      "description": "Профессиональный шиномонтаж в Твери. Замена шин, балансировка, ремонт покрышек, сезонное хранение. Работаем ежедневно с 9:00 до 19:00.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Революционная улица, 1Б",
+        "addressLocality": "Тверь",
+        "addressRegion": "Тверская область",
+        "addressCountry": "RU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 56.8587,
+        "longitude": 35.9176
+      },
+      "telephone": "+7-991-113-00-69",
+      "openingHours": "Mo-Su 09:00-19:00",
+      "priceRange": "₽₽",
+      "sameAs": [
+        "https://vk.com/papaxashin"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Услуги шиномонтажа",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Замена шин",
+              "description": "Профессиональная замена и установка шин"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D Балансировка",
+              "description": "Точная балансировка колес на современном оборудовании"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ремонт покрышек",
+              "description": "Вулканизация и ремонт проколов"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+    <div class="logo">
+        <img src="images/logo.webp" alt="PAPAXA логотип" style="height: 50px;">
+    </div>
+    
+    <nav class="main-nav">
+        <a href="#services">Услуги</a>
+        <a href="#pricing">Цены</a>
+        <a href="#about">О нас</a>
+        <a href="#contact">Записаться</a>
+    </nav>
+    
+    <div class="contact-header">
+        <div>Ежедневно 9:00-19:00</div>
+        <a href="tel:+79911130069" class="phone">+7 (991) 113-00-69</a>
+    </div>
+</div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Шиномонтаж PAPAXA</h1>
+                <p>Профессиональный шиномонтаж в Твери • 3D балансировка • Ремонт шин • Сезонное хранение</p>
+                <a href="#contact" class="cta-button">Записаться на обслуживание</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Замена шин</h3>
+                    <p>Профессиональное снятие и установка шин любой сложности. Работаем с легковыми авто, паркетниками и внедорожниками.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚖️</div>
+                    <h3>3D Балансировка</h3>
+                    <p>Современное оборудование для точной балансировки колес. Устраняем вибрацию и продлеваем срок службы шин.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔨</div>
+                    <h3>Ремонт покрышек</h3>
+                    <p>Вулканизация проколов, ремонт порезов и восстановление поврежденных шин с гарантией качества.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💾</div>
+                    <h3>Сезонное хранение</h3>
+                    <p>Безопасное хранение ваших шин в специально оборудованном помещении с соблюдением технологии.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>Продажа шин и дисков</h3>
+                    <p>Большой выбор качественных шин и дисков. Поможем подобрать оптимальный вариант под ваш автомобиль.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Покраска дисков</h3>
+                    <p>Профессиональная покраска и восстановление внешнего вида дисков. Различные цвета и покрытия.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Почему выбирают PAPAXA?</h2>
+                    <p>Шиномонтаж PAPAXA - это современный сервисный центр в Твери, где качество обслуживания является нашим главным приоритетом. Мы используем только профессиональное оборудование и предоставляем гарантию на все виды работ.</p>
+                    <p>Наша команда опытных мастеров обслуживает автомобили любых марок и моделей. Мы ценим время наших клиентов и выполняем работы быстро, но без ущерба качеству.</p>
+                    <ul class="about-features">
+                        <li>Современное оборудование для 3D балансировки Nordberg</li>
+                        <li>Опытные мастера с многолетним стажем</li>
+                        <li>Работаем ежедневно без выходных с 9:00 до 19:00</li>
+                        <li>Гарантия на все виды работ</li>
+                        <li>Удобное расположение в центре Твери</li>
+                        <li>Конкурентные цены и честная оценка стоимости</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+    <img src="images/logo.webp" alt="Шиномонтаж PAPAXA - наша работа" style="width: 100%; height: 530px; object-fit: cover; border-radius: 15px;">
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Цены на услуги</h2>
+            <div class="pricing-tables">
+                <div class="pricing-table">
+                    <div class="pricing-header">
+                        <h3>Легковые автомобили</h3>
+                        <p>R13-R22</p>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="price-row">
+                            <span class="service-name">Снятие и установка</span>
+                            <span class="price-range">100-120₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Разборка/Сборка</span>
+                            <span class="price-range">100-150₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Балансировка</span>
+                            <span class="price-range">150-190₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Комплекс колеса</span>
+                            <span class="price-range">450-740₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Комплекс авто</span>
+                            <span class="price-range">1500-2400₽</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-table">
+                    <div class="pricing-header">
+                        <h3>Паркетники</h3>
+                        <p>R15-R22</p>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="price-row">
+                            <span class="service-name">Снятие и установка</span>
+                            <span class="price-range">120-220₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Разборка/Сборка</span>
+                            <span class="price-range">110-240₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Балансировка</span>
+                            <span class="price-range">150-270₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Комплекс колеса</span>
+                            <span class="price-range">490-970₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Комплекс авто</span>
+                            <span class="price-range">1800-3200₽</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-table">
+                    <div class="pricing-header">
+                        <h3>Внедорожники</h3>
+                        <p>R15-R22</p>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="price-row">
+                            <span class="service-name">Снятие и установка</span>
+                            <span class="price-range">150-240₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Разборка/Сборка</span>
+                            <span class="price-range">150-260₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Балансировка</span>
+                            <span class="price-range">150-290₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Комплекс колеса</span>
+                            <span class="price-range">600-1050₽</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="service-name">Комплекс авто</span>
+                            <span class="price-range">2000-3400₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 30px; color: #666;">
+                * Цены указаны за одно колесо/автомобиль. Стоимость зависит от радиуса колес. Точную цену уточняйте при записи.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Контакты и запись</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Как нас найти</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Адрес:</strong><br>
+                            Революционная улица, 1Б<br>
+                            г. Тверь
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Телефон:</strong><br>
+                            <a href="tel:+79911130069" style="color: #ff6b35; text-decoration: none;">+7 (991) 113-00-69</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <strong>Режим работы:</strong><br>
+                            Ежедневно с 9:00 до 19:00<br>
+                            Без выходных
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">👥</div>
+                        <div>
+                            <strong>Мы в социальных сетях:</strong><br>
+                            <a href="https://vk.com/papaxashin" target="_blank" style="color: #ff6b35; text-decoration: none;">Группа ВКонтакте</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 style="color: #ff6b35; margin-bottom: 20px;">Записаться на обслуживание</h3>
+                    <form action="https://formspree.io/f/xzzjdweo" method="POST">
+                        <div class="form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="car">Марка и модель автомобиля</label>
+                            <input type="text" id="car" name="car" placeholder="Например: Toyota Camry">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Необходимая услуга</label>
+                            <select id="service" name="service">
+                                <option value="">Выберите услугу</option>
+                                <option value="tire-change">Замена шин</option>
+                                <option value="balancing">Балансировка</option>
+                                <option value="tire-repair">Ремонт покрышек</option>
+                                <option value="storage">Сезонное хранение</option>
+                                <option value="tire-sales">Покупка шин/дисков</option>
+                                <option value="wheel-painting">Покраска дисков</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Комментарий</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Дополнительная информация..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Отправить заявку</button>
+                    </form>
+                    <p style="font-size: 0.9rem; margin-top: 15px; opacity: 0.8;">
+                        * Мы свяжемся с вами в течение 15 минут для подтверждения записи
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Наша работа</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+    <img src="images/photo1.webp" alt="Шиномонтаж PAPAXA - рабочий процесс внедорожник">
+</div>
+                <div class="gallery-item">
+    <img src="images/photo2.webp" alt="Шиномонтаж PAPAXA - рабочий процесс легковой">
+</div>
+                <div class="gallery-item">
+    <img src="images/photo3.webp" alt="Шиномонтаж PAPAXA - рабочий процесс паркетник">
+</div>
+			</div>
+            <p style="text-align: center; margin-top: 30px; color: #666;">
+                Современное оборудование • Опытные мастера • Качественный результат
+            </p>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section style="padding: 80px 0; background: white;">
+        <div class="container">
+            <h2 class="section-title">Как добраться</h2>
+            <div style="text-align: center; margin-top: 50px;">
+                <div style="background: #f8f9fa; padding: 40px; border-radius: 15px; margin-bottom: 30px;">
+                    <h3 style="color: #ff6b35; margin-bottom: 20px;">🗺️ Мы находимся в удобном месте</h3>
+                    <p style="font-size: 1.1rem; color: #666; margin-bottom: 20px;">
+                        <strong>Адрес:</strong> Революционная улица, 1Б, Тверь
+                    </p>
+                    <p style="color: #666; margin-bottom: 20px;">
+                        Удобный подъезд, есть парковка. Ориентир - рядом с промышленной зоной, вывеска ШИНОМОНТАЖ хорошо видна с дороги.
+                    </p>
+                    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                        <a href="https://yandex.ru/maps/?text=Революционная+1Б+Тверь" target="_blank" 
+                           style="background: #ff6b35; color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; transition: all 0.3s ease;">
+                            Открыть в Яндекс.Картах
+                        </a>
+                        <a href="https://maps.google.com/?q=Революционная+1Б+Тверь" target="_blank"
+                           style="background: #333; color: white; padding: 12px 25px; text-decoration: none; border-radius: 25px; transition: all 0.3s ease;">
+                            Открыть в Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section style="padding: 80px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+        <div class="container">
+            <h2 class="section-title">Частые вопросы</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; margin-top: 50px;">
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 15px;">Нужно ли записываться заранее?</h3>
+                    <p>Рекомендуем записаться по телефону, особенно в сезон замены шин. Но принимаем и без записи по возможности.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 15px;">Сколько времени занимает замена шин?</h3>
+                    <p>В среднем замена комплекта шин с балансировкой занимает 30-45 минут. Можете подождать в комфортной зоне ожидания. Время оказания услуг зависит от сложности работ.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 15px;">Даете ли гарантию на работы?</h3>
+                    <p>Да, на все работы предоставляется гарантия. На балансировку - 1000 км, на ремонт - 6 месяцев.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 15px;">Какие способы оплаты принимаете?</h3>
+                    <p>Наличные, переводы через СБП.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 15px;">Условия сезонного хранения?</h3>
+                    <p>Закрытое помещение, хранение с соблюдением технологии, каждое колесо промаркировано. Стоимость - от 2000₽ за сезон.</p>
+                </div>
+                <div style="background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: #ff6b35; margin-bottom: 15px;">Работаете с коммерческим транспортом?</h3>
+                    <p>Да, обслуживаем легкий коммерческий транспорт до 3,5 тонн. Есть спецпредложения для автопарков.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="padding: 80px 0; background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Готовы обслужить ваш автомобиль?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 40px; opacity: 0.9;">
+                Позвоните прямо сейчас и запишитесь на удобное время
+            </p>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <a href="tel:+79911130069" style="background: white; color: #ff6b35; padding: 20px 40px; text-decoration: none; border-radius: 50px; font-size: 1.2rem; font-weight: bold; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                    📞 Позвонить сейчас
+                </a>
+                <a href="https://vk.com/papaxashin" target="_blank" style="background: rgba(255,255,255,0.2); color: white; padding: 20px 40px; text-decoration: none; border-radius: 50px; font-size: 1.2rem; font-weight: bold; transition: all 0.3s ease; border: 2px solid white;">
+                    👥 Написать ВКонтакте
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 30px; text-align: left;">
+                <div>
+                    <h3 style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+    <img src="images/logo.webp" alt="PAPAXA логотип" style="height: 30px;">
+    <span style="color: #ff6b35;">PAPAXA</span>
+</h3>
+                    <p>Профессиональный шиномонтаж в Твери. Современное оборудование, опытные мастера, честные цены.</p>
+                </div>
+                <div>
+                    <h4 style="color: #ff6b35; margin-bottom: 15px;">Наши услуги</h4>
+                    <ul style="list-style: none; line-height: 1.8;">
+                        <li>• Замена и установка шин</li>
+                        <li>• 3D балансировка колес</li>
+                        <li>• Ремонт покрышек</li>
+                        <li>• Сезонное хранение</li>
+                        <li>• Продажа шин и дисков</li>
+                        <li>• Покраска дисков</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #ff6b35; margin-bottom: 15px;">Контакты</h4>
+                    <p>📍 Революционная ул., 1Б, Тверь</p>
+                    <p>📞 <a href="tel:+79911130069" style="color: white; text-decoration: none;">+7 (991) 113-00-69</a></p>
+                    <p>🕒 Ежедневно 9:00-19:00</p>
+                    <p>👥 <a href="https://vk.com/papaxashin" target="_blank" style="color: #ff6b35; text-decoration: none;">vk.com/papaxashin</a></p>
+                </div>
+            </div>
+            <hr style="border: 1px solid #444; margin: 30px 0;">
+            <div style="text-align: center; opacity: 0.8;">
+                <p>&copy; 2025 Шиномонтаж PAPAXA. Все права защищены.</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;">
+                    Тверь • Революционная 1Б • +7 (991) 113-00-69 • Ежедневно 9:00-19:00
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div style="position: fixed; bottom: 30px; right: 30px; z-index: 1000;">
+        <a href="tel:+79911130069" style="
+            background: linear-gradient(45deg, #ff6b35, #f7931e);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            box-shadow: 0 5px 20px rgba(255, 107, 53, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            📞
+        </a>
+    </div>
+
+    <style>
+        @keyframes pulse {
+            0% { box-shadow: 0 5px 20px rgba(255, 107, 53, 0.4); }
+            50% { box-shadow: 0 5px 30px rgba(255, 107, 53, 0.8); }
+            100% { box-shadow: 0 5px 20px rgba(255, 107, 53, 0.4); }
+        }
+        
+        select {
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.9);
+            color: #333;
+            width: 100%;
+        }
+    </style>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission
+document.querySelector('form').addEventListener('submit', function(e) {
+    // Не блокируем отправку - позволяем Formspree обработать
+    
+    const submitBtn = this.querySelector('.submit-btn');
+    const originalText = submitBtn.textContent;
+    
+    // Показываем процесс отправки
+    submitBtn.textContent = 'Отправляем...';
+    submitBtn.disabled = true;
+    
+    // Возвращаем кнопку в исходное состояние через 3 секунды
+    setTimeout(() => {
+        submitBtn.textContent = originalText;
+        submitBtn.disabled = false;
+    }, 3000);
+});	
+
+        // Add loading animation on page load
+        window.addEventListener('load', function() {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease-in-out';
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // Lazy loading animation for sections
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
